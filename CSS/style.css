@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+li {
+    list-style-type: disc;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.error1 {
+    color: #F44336;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.player2 {
+    display: none;
+    flex-direction: column;
+}
+
+.text {
+    transition: .4s;
+}
+
+.rules {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* ======================================================== */
+
+#game {
+    padding: 50px 0;
+}
+
+#game .container h1 {
+    font-size: 54px;
+    font-weight: 600;
+    color: #282938;
+    line-height: 74px;
+}
+
+#game .container p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    line-height: 34px;
+    margin: 50px 0 0 20px;
+}
+
+#game .container ul {
+    max-width: 480px;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+#game .container li {
+    margin: 10px 0;
+}
+
+#game .container button.playGame {
+    padding: 12px 62px;
+    color: #1B1C2B;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    border: 2px solid #FCD980;
+    background: #FCD980;
+    border-radius: 41px;
+    transition: .3s;
+    margin: 20px 0;
+}
+
+#game .container button.playGame:hover {
+    border: 2px solid #1B1C2B;
+    background: transparent;
+}
+
+#game .container .main {
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1C1E53;
+    color: #ffffff;
+    padding: 50px 120px;
+    display: none;
+    transition: .5s;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 72px -9px #1C1E53;
+    -moz-box-shadow: 0px 0px 72px -9px #1C1E53;
+    box-shadow: 0px 0px 72px -9px #1C1E53;
+}
+
+#game .container .main h1 {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    margin: 20px 0;
+}
+
+#game .container .main label {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0 0 10px 10px;
+}
+
+#game .container .main input {
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 16px;
+    padding: 12px 24px;
+    background: transparent;
+    color: var(--Grey, #F4F6FC);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    outline: none;
+    width: 100%;
+}
+
+#game .container .main button {
+    padding: 15px 51px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    border: 1px solid #FCD980;
+    margin: 12px 0 28px;
+    background: #FCD980;
+    border-radius: 41px;
+    transition: .3s;
+    width: 100%;
+}
+
+#game .container .main button:hover {
+    background: transparent;
+    color: #ffffff;
+}
+
+#game .container .main h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+#game .container .main .chances {
+    font-size: 20px;
+    text-align: center;
+}
+
+#game .container .main .result {
+    font-size: 40px;
+    text-align: center;
+    transition: .5s;
+}
+
