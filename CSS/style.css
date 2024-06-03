@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-.error1 {
+.error1, .error2 {
     color: #F44336;
     font-size: 14px;
     margin-left: 10px;
